@@ -1,6 +1,7 @@
 # Titanic_dataset: Machine Learning from a Disaster
 ## Data Collection
 Data used in this project is collected from Kaggle website. It consists of two csv files. One is training file and other is for testing pupose. Training file consists of 891 X 12 records where as Testing file consists of 418 X 12 records.
+Kaggle Repository: https://www.kaggle.com/competitions/titanic
 ## Exploratory Data Analysis
 In this phase we select the important features and use descriptive analytics to summarize the records. In this way we can perform feature selection. Important libraries used in this step are- matplotlib, seaborn (for data vizualization to analyze trends), pandas and numpy.
 ## Predictive Modelling
