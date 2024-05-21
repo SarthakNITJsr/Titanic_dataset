@@ -5,7 +5,7 @@ Data used in this project is collected from Kaggle website. It consists of two c
 Kaggle Repository: https://www.kaggle.com/competitions/titanic
 ## Exploratory Data Analysis
 In this phase we select the important features and use descriptive analytics to summarize the records. In this way we can perform feature selection. Important libraries used in this step are- matplotlib, seaborn (for data vizualization to analyze trends), pandas and numpy.
-## Predictive Modelling
+## Predictive Modelling (with the help of pipeline)
 In this phase we divided our data into 2 sets for training and validation using train_test_split. We then used various preprocessing steps like simple imputer, ordinal encoding , MinMaxScaling, etc. to preprocess the data before fitting it into our model. We combined all the preprocessing steps using ColumnTransformer and then integrated it with our model using pipeline. The selection of models was based on the scores of those models on the validation data. 
 ## Recoding the Output
 We then used this model to predict target variable for given testing data. The resulted array was then converted into a dataframe with the respective PassengerIds and then stored into a seperate csv file named as submission.csv.
